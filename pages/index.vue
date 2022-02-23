@@ -3,9 +3,13 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+// import Vue from 'vue'
 
-export default Vue.extend({
-  name: 'IndexPage'
-})
+export default {
+  head() {
+    return {
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+    };
+  },
+};
 </script>
