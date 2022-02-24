@@ -1,0 +1,42 @@
+{
+    "maintitle":"Make buisness with us & become beautiful",
+    "maindescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "mainbutton":"GET STARTED",
+
+
+    "firsttitle":"Services",
+    "firstdescription":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum",
+
+
+
+    "iconone":"../static/img/seo.svg",
+    "descriptioncardone":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
+    "titlecardone":"Market Research",
+
+    "icontwo":"../static/img/technology.svg",
+    "descriptioncardtwo":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
+    "titlecardtwo":"Latest Technology",
+
+    "iconthree":"../static/img/cloud.svg",
+    "descriptioncardthree":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
+    "titlecardthree":"Data Processing",
+
+    "iconfour":"../static/img/support.svg",
+    "descriptioncardfour":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
+    "titlecardfour":"Customer Support",
+
+
+    "secondtitle":"Best Digital Marketing Solution",
+    "seconddescription":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum Lorem ipsum dolor sit amet, hendrerit mel, es vidit eu lorem animal iracundia. Ius te altera essent incorrupte.",
+    "list":"- Icon Hendrerit omittantur mel,es vidit eu lorem animal.",
+
+
+    "threetitle":"Contact",
+    "threedescription":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum.",
+    "input":"MAIL",
+    "lastbutton":"SUBMIT",
+
+    "footertitle":"© all Rights Reserved theme by Hexan"
+
+
+}

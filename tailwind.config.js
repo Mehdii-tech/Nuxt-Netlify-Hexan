@@ -1,0 +1,31 @@
+module.exports = {
+  mode: "jit",
+  content: [
+    "./components/**/*.{js,vue,ts}",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+  ],
+  theme: {
+    fontSize: {
+      xxs: ["0.625rem", "0.625rem"],
+      xs: [".75rem", ".75rem"],
+      sm: ".875rem",
+      tiny: ".875rem",
+      base: "1rem",
+      lg: "1.125rem",
+      xl: "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+      "45xl": "2.75rem",
+      "5xl": "3rem",
+      "6xl": "4rem",
+      "7xl": "5rem",
+      "75xl": "6.5rem",
+      "8xl": "10rem",
+    },
+    extend: {},
+  },
+  plugins: [],
+};

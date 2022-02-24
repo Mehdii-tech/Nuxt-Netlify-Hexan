@@ -6,38 +6,81 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
+  - name: "home"
+    label: "Home"
+    folder: "content/home/home.json"
     format: "frontmatter"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     editor:
       preview: false
     fields:
-      - { label: Title, name: title, widget: string }
-      - {
-          label: "Published At",
-          name: publishedAt,
-          widget: date,
-          format: "Do MMM YYYY",
-        }
-      - { label: Content, name: content, widget: markdown }
-      - {
-          label: "Featured Image",
-          name: featuredImage,
-          widget: image,
-          required: false,
-        }
-      - {
-          label: "SEO Description",
-          name: seoDescription,
-          widget: text,
-          required: false,
-        }
-      - {
-          label: "SEO Meta Image",
-          name: seoMetaImage,
-          widget: image,
-          required: false,
-        }
+      - { label: MainTitle, name: maintitle, widget: string }
+      - { label: MainDescription, name: maindescription, widget: string }
+      - { label: MainContent, name: mainbutton, widget: string }
+      - label: "Contents"
+        name: "content"
+        widget: "list"
+        fields:
+          - { label: FirstContent, name: firsttitle, widget: string }
+          - { label: FirstDescription, name: firstdescription, widget: string }
+          - label: "Subcontentone"
+            name: "subcontentone"
+            widget: "list"
+            fields:
+              - { label: IconCardone, name: iconone, widget: image }
+              - {
+                  label: Descriptioncardone,
+                  name: descriptioncardone,
+                  widget: string,
+                }
+              - { label: Subtitlecardone, name: titlecardone, widget: string }
+
+              - { label: IconCardtwo, name: icontwo, widget: image }
+              - {
+                  label: Descriptioncardtwo,
+                  name: descriptioncardtwo,
+                  widget: string,
+                }
+              - { label: Subtitlecardtwo, name: titlecardtwo, widget: string }
+
+              - { label: IconCardthree, name: iconthree, widget: image }
+              - {
+                  label: Descriptioncardthree,
+                  name: descriptioncardthree,
+                  widget: string,
+                }
+              - {
+                  label: Subtitlecardthree,
+                  name: titlecardthree,
+                  widget: string,
+                }
+
+              - { label: IconCardfour, name: iconfour, widget: image }
+              - {
+                  label: Descriptioncardfour,
+                  name: descriptioncardfour,
+                  widget: string,
+                }
+              - { label: Subtitlecardfour, name: titlecardfour, widget: string }
+
+          - { label: SecondContent, name: secondtitle, widget: string }
+          - {
+              label: SecondDescription,
+              name: seconddescription,
+              widget: string,
+            }
+          - label: "Subcontenttwo"
+            name: "subcontenttwo"
+            widget: "list"
+            fields:
+              - { label: List, name: list, widget: string }
+              - { label: List, name: list, widget: string }
+              - { label: List, name: list, widget: string }
+
+          - { label: ThreeContent, name: threetitle, widget: string }
+          - { label: ThreeDescription, name: threedescription, widget: string }
+          - { label: Input, name: input, widget: string }
+          - { label: Lastbutton, name: lastbutton, widget: string }
+
+          - { label: Footer, name: footertitle, widget: string }
